@@ -1,0 +1,82 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .single-gallery {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+ 
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .left-img img {
+        width: 100%;
+        margin-top: 52px;
+    }
+    .loving-body h3 {
+        font-size: 30px;
+    }
+    .loving-body h3 {
+        font-size: 35px;
+    }
+    .loving-poem .poem p {
+        font-size: 12px;
+    }
+    .loving-body h3 {
+        font-size: 32px;
+    }
+    .loving-body h3 {
+        font-size: 32px;
+    }
+    .loving-body {
+        display: block;
+    }
+ 
+    .loving-img img {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 45px;
+    }
+    .single-gallery {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .loving-poem {
+        width: 100%;
+        text-align: center;
+    }
+    .loving-poem .poem p {
+        margin-left: 0;
+    }
+    .lover {
+        display: block;
+    }
+    .lover-img img {
+        width: 100%;
+    }
+    .lover-person {
+        height: auto;
+    }
+}
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
